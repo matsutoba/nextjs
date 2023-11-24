@@ -27,6 +27,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@notionhq/client", "npm:2.2.13"],\
+          ["@types/next", "npm:9.0.0"],\
           ["@types/node", "npm:20.9.5"],\
           ["@types/react", "npm:18.2.38"],\
           ["@types/react-dom", "npm:18.2.17"],\
@@ -316,6 +317,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../.yarn/berry/cache/@types-json5-npm-0.0.29-f63a7916bd-10c0.zip/node_modules/@types/json5/",\
         "packageDependencies": [\
           ["@types/json5", "npm:0.0.29"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/next", [\
+      ["npm:9.0.0", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@types-next-npm-9.0.0-62b0508727-10c0.zip/node_modules/@types/next/",\
+        "packageDependencies": [\
+          ["@types/next", "npm:9.0.0"],\
+          ["next", "virtual:62b0508727b322843db5bc19ea87d237b18bda6e866663cd81ede043ba88bc8903143df2b7594da990d5d46d93b66e02e795d47efdcc4c94a3b7b41d79be6421#npm:14.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2518,6 +2529,47 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
+      ["virtual:62b0508727b322843db5bc19ea87d237b18bda6e866663cd81ede043ba88bc8903143df2b7594da990d5d46d93b66e02e795d47efdcc4c94a3b7b41d79be6421#npm:14.0.3", {\
+        "packageLocation": "./.yarn/__virtual__/next-virtual-9621b015fe/5/.yarn/berry/cache/next-npm-14.0.3-45132b65cd-10c0.zip/node_modules/next/",\
+        "packageDependencies": [\
+          ["next", "virtual:62b0508727b322843db5bc19ea87d237b18bda6e866663cd81ede043ba88bc8903143df2b7594da990d5d46d93b66e02e795d47efdcc4c94a3b7b41d79be6421#npm:14.0.3"],\
+          ["@next/env", "npm:14.0.3"],\
+          ["@next/swc-darwin-arm64", "npm:14.0.3"],\
+          ["@next/swc-darwin-x64", "npm:14.0.3"],\
+          ["@next/swc-linux-arm64-gnu", "npm:14.0.3"],\
+          ["@next/swc-linux-arm64-musl", "npm:14.0.3"],\
+          ["@next/swc-linux-x64-gnu", "npm:14.0.3"],\
+          ["@next/swc-linux-x64-musl", "npm:14.0.3"],\
+          ["@next/swc-win32-arm64-msvc", "npm:14.0.3"],\
+          ["@next/swc-win32-ia32-msvc", "npm:14.0.3"],\
+          ["@next/swc-win32-x64-msvc", "npm:14.0.3"],\
+          ["@opentelemetry/api", null],\
+          ["@swc/helpers", "npm:0.5.2"],\
+          ["@types/opentelemetry__api", null],\
+          ["@types/react", null],\
+          ["@types/react-dom", null],\
+          ["@types/sass", null],\
+          ["busboy", "npm:1.6.0"],\
+          ["caniuse-lite", "npm:1.0.30001564"],\
+          ["postcss", "npm:8.4.31"],\
+          ["react", null],\
+          ["react-dom", null],\
+          ["sass", null],\
+          ["styled-jsx", "virtual:9621b015fe2807afb4a9ebaec9487f837db1e3ee8ae1e14c0d51880ac717f7ff00cfb27590af84130618a8b48f1803bc03d6d358abd627ff1d15618ebc983b5e#npm:5.1.1"],\
+          ["watchpack", "npm:2.4.0"]\
+        ],\
+        "packagePeers": [\
+          "@opentelemetry/api",\
+          "@types/opentelemetry__api",\
+          "@types/react-dom",\
+          "@types/react",\
+          "@types/sass",\
+          "react-dom",\
+          "react",\
+          "sass"\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["virtual:c857beb31f06d0cad2795cb72068bd50e750ff1e0db1f6cb6a6f8d6e837e47f84f8647912617add26c009b44e995c7b33b9d9d341bd59c891a9f2a0c0c6bb40c#npm:14.0.3", {\
         "packageLocation": "./.yarn/__virtual__/next-virtual-95108b4ad8/5/.yarn/berry/cache/next-npm-14.0.3-45132b65cd-10c0.zip/node_modules/next/",\
         "packageDependencies": [\
@@ -2566,6 +2618,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["nextjs-sample", "workspace:."],\
           ["@notionhq/client", "npm:2.2.13"],\
+          ["@types/next", "npm:9.0.0"],\
           ["@types/node", "npm:20.9.5"],\
           ["@types/react", "npm:18.2.38"],\
           ["@types/react-dom", "npm:18.2.17"],\
@@ -3266,6 +3319,28 @@ const RAW_RUNTIME_STATE =
           ["babel-plugin-macros", null],\
           ["client-only", "npm:0.0.1"],\
           ["react", "npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@babel/core",\
+          "@types/babel-plugin-macros",\
+          "@types/babel__core",\
+          "@types/react",\
+          "babel-plugin-macros",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:9621b015fe2807afb4a9ebaec9487f837db1e3ee8ae1e14c0d51880ac717f7ff00cfb27590af84130618a8b48f1803bc03d6d358abd627ff1d15618ebc983b5e#npm:5.1.1", {\
+        "packageLocation": "./.yarn/__virtual__/styled-jsx-virtual-5bbd91eed3/5/.yarn/berry/cache/styled-jsx-npm-5.1.1-2557a209ba-10c0.zip/node_modules/styled-jsx/",\
+        "packageDependencies": [\
+          ["styled-jsx", "virtual:9621b015fe2807afb4a9ebaec9487f837db1e3ee8ae1e14c0d51880ac717f7ff00cfb27590af84130618a8b48f1803bc03d6d358abd627ff1d15618ebc983b5e#npm:5.1.1"],\
+          ["@babel/core", null],\
+          ["@types/babel-plugin-macros", null],\
+          ["@types/babel__core", null],\
+          ["@types/react", null],\
+          ["babel-plugin-macros", null],\
+          ["client-only", "npm:0.0.1"],\
+          ["react", null]\
         ],\
         "packagePeers": [\
           "@babel/core",\
